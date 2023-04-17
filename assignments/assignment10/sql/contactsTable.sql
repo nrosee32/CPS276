@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS contacts(
+id int AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(50),
+address VARCHAR(50),
+city VARCHAR(50),
+state VARCHAR(5),
+phone VARCHAR(50),
+email VARCHAR(255),
+dob VARCHAR(50),
+contacts VARCHAR(255),
+age VARCHAR(50));

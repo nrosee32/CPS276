@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS admins(
+id int AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(50),
+email VARCHAR(255),
+password VARCHAR(255),
+status VARCHAR(50));
